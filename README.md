@@ -1,0 +1,6 @@
+# Ship Routing Algorithm for Just-In-Time and Energy Efficient Voyages
+
+Rising fuel costs, the ever-increasing number of regulations and their tightening demonstrates the need to minimize fuel consumption in container shipping.The developed script is intended to assist in planning fuel-saving routes and takes into account the engine power of the vessel, the condition of the weather and the sea, and also possible just-in-time deadlines. 
+
+For this purpose, the engine power is first modeled in order to be able to make statements about which speed is possible under which weather conditions. By using a genetic algorithm, a multi-objective optimization is then performed, aiming at the lowest possible fuel consumption while at the same time meeting the scheduled deadlines. Thereby the algorithm is tested in two different specifications. One with a constant and over the route not changeable engine power and the other with a changeable engine power. With the first specification, a temporal window can only be considered up to a certain degree due to the constant engine power. The second specification with the variable engine power, however, should allow the calculation of just-in-time routes. In order to be able to make statements about the two specifications, they are compared concerning applicability, constraints and performance. 
+
